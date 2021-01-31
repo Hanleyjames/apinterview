@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>next adjacent demo</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="./action.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Aesthetics Pro Interview Test</h1>
+       <div class="container card">
+          <div class="card-body">
+            <h3 class="card-title">About this project: </h3>
+            <about class="card-text">This project uses jquery and bootstrap for one very minimal reasons. Primarily, I took advantage of this opportunity to use something I have not in about two years.</about>
+          </div>
+        </div>
+    </div>
+    <div id="challenge-number-one" class="row container card">
+      <div class="card-body col">
+        <h3 class="card-title">Challenge #1: Basic Auth</h3>
+        <p class="card-text">Short Explenation: There is a heroku app hosting a JSON Object which requires an authorization header format with Basic as the token type, with username:password following.</p>
+        <p class="card-text">The test is to make sure you understand how auth requests work at some level. The response is as follows and is logged in the console as an object:</p>
+        <p id="answer-one" class="card-text"></p>
+      </div>
+
+    </div>
+    <div id="challenge-number-two" style="margin-top: 100px;">
+      <div class="card row container" style="margin: auto;">
+        <div class="card-body">
+          <h3 class="card-title">Challenge #2: Object iteration and dynamic element creation/appending</h3>
+          <p class="card-text">Short Explenation: The same heroku application has a different endpoint on the same host, use the data to create dynamic elements</p>
+          <p class="card-text">The test is to make sure you understand Object iteration and Dynamic element creation. The project uses jquery's each and append with string interpolation.</p>
+          <p class="card-text">While the opportunity to use vanilla js is always there, I decided to use some of JQuery's built in features. That in itself is my only primary reason.</p>
+          <p class="card-text">In action.js I take reason for explaining not using map and some of my other reasoning. The results for this section are as follows:</p>
+        </div>
+      </div>
+      <ul id="shapes">
+      </ul>
+    </div>
+    <div class="loader"></div>
+
+  </body>
+</html>

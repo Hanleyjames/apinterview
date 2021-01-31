@@ -1,0 +1,61 @@
+.circle{
+  border-radius: 50%;
+}
+.shape-name{
+  padding-top: 50%;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin: 10px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid black; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+#challenge-number-one{
+  margin: auto;
+}
+#header{
+  margin-bottom: 50px;
+}
+h1{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  margin-bottom: 30px;
+  background-color: #00bfff;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 1px 1px 3px grey;
+  text-shadow: 1px 1px 5px black;
+
+}
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  cursor: pointer;
+}
